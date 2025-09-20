@@ -1,0 +1,6 @@
+/* src/fonts/NotoSansTamil.css */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap');
+
+body {
+    font-family: 'Noto Sans Tamil', sans-serif;
+}

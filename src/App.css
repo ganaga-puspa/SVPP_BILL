@@ -32,7 +32,94 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Form styling */
+.form-container {
+  display: flex;
+  gap: 15px;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-btn {
+  padding: 8px 15px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background: darkgreen;
+}
+
+/* Preview box */
+.preview-box {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: #f9f9f9;
+}
+
+/* Table styling */
+.crackers-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.crackers-table th {
+  background-color: #ffcc00;
+  /* yellow header */
+  border: 2px solid red;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.crackers-table td {
+  border: 1px solid red;
+  padding: 8px;
+}
+
+.crackers-table tr:nth-child(even) {
+  background-color: #fffaf0;
+  /* light beige row color */
+}
+
+/* Delete button */
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: darkred;
 }
