@@ -165,7 +165,7 @@ function App() {
       theme: "grid",
       styles: { fontSize: 10 },
       headStyles: {
-        fillColor: type === "svpp" ? [255, 0, 0] : [255, 204, 0], // red for SVPP, yellow for customer
+        fillColor: type === "svpp" ? [255, 0, 0] : [255, 204, 0], 
         textColor: type === "svpp" ? 255 : 0, // white for SVPP, black for customer
         fontStyle: "bold",
       },
